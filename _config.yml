@@ -1,0 +1,40 @@
+title:
+email:
+description:
+include: [ "_pages" ]
+baseurl: "/"
+url: "" # the base hostname & protocol for your site, e.g. http://ex-ample.com
+github_username:
+github: [ metadata ]
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+analytics:
+  provider: "google"
+  tracking_id:
+search: true
+search_full_content: true
+footer:
+  links:
+    - label: "Home"
+      url:
+    - label: "Email"
+      url:
+      icon: "fas fa-fw fa-envelope"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      toc: true
+      toc_title: "Table of Contents"
+      author_profile: true
+      author:
+        name:
+        avatar:
+        links:
+          - label: "Email"
+            icon: "fas fa-fw fa-envelope"
+            url:
